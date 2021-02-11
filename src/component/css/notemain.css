@@ -1,0 +1,62 @@
+.note-main-div {
+  background-color: #f5972c;
+  height: 250px;
+  width: 270px;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.title-area,
+.detail-area {
+  border: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: rgb(32, 32, 32);
+  background-color: #f5972c;
+  text-align: center;
+  letter-spacing: 0.7px;
+}
+
+.title-area-label,
+.detail-area-label {
+  font-weight: 700;
+}
+
+.title-area::placeholder,
+.detail-area::placeholder {
+  color: rgb(32, 32, 32);
+  letter-spacing: 0.7px;
+}
+
+.title-area {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.detail-area {
+  /* height: 100px; */
+  height: 145px;
+  max-height: 145px;
+  resize: none;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.action-button {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  color: #fff !important;
+  border: 0px;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+}
+
+.action-button:hover {
+  transform: scale(1.1);
+}
+
+.add-button {
+  background-color: #fff;
+  color: #000 !important;
+}
